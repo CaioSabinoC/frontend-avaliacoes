@@ -1,0 +1,102 @@
+/* Fundo geral */
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("icons/fundo.png") no-repeat center center / cover;
+    
+  color: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Container com leve transparência */
+.container {
+  max-width: 700px;
+}
+
+/* Logo */
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+/* Subtítulo */
+.subtitle {
+  color: #9ca3af;
+}
+
+/* Cards */
+.card {
+  background: #1f2937;
+  border: none;
+  border-radius: 16px;
+  color: #f9fafb;
+}
+
+/* Inputs */
+.form-control {
+  background: #111827;
+  border: 1px solid #374151;
+  color: #fff;
+}
+
+.form-control:focus {
+  border-color: #dc2626;
+  box-shadow: none;
+}
+
+/* Botão principal */
+.btn-danger {
+  background: #dc2626;
+  border: none;
+}
+
+.btn-danger:hover {
+  background: #b91c1c;
+}
+
+/* Botão secundário */
+.btn-outline-secondary {
+  border-color: #6b7280;
+  color: #d1d5db;
+}
+
+/* Estrelas */
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 4px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.star-rating span {
+  color: #ccc;
+  transition: color 0.15s;
+}
+
+.star-rating span.active {
+  color: #facc15;
+}
+
+/* Hover nas estrelas (efeito bonito) */
+.star-rating span:hover,
+.star-rating span:hover ~ span,
+.star-rating span.active,
+.star-rating span.active ~ span {
+  color: #f59e0b;
+}
+
+.entry-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.entry-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.entry-item:first-child {
+  padding-top: 0;
+}
