@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/avaliacoes';
+const API_URL = 'https://backend-avaliacoes-iimr.onrender.com/api/avaliacoes';
 
 // Formulário
 const form = document.getElementById('entry-form');
